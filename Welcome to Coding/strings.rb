@@ -16,3 +16,10 @@ puts "hello" + " world" # concatinates strings
 
 puts "Hey-Programmers".length < 5
 puts "coding".length
+
+
+# Example: Strings Exercise
+puts "Hello " + "World"
+puts "World".length
+puts "Hello "[3]
+# Write 3 more expressions below:

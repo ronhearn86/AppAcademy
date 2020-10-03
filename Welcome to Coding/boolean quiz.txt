@@ -1,0 +1,53 @@
+Booleans Quiz
+What will 13 % 2 == 0 evaluate to?
+
+true
+
+false <========
+
+1
+
+0
+
+EXPLANATION
+13 % 2 == 0 -> 1 == 0 -> false
+
+What will 6 > 0 && 6 % 2 == 0 evaluate to?
+
+0
+
+true <========
+
+false
+
+EXPLANATION
+6 > 0 && 6 % 2 == 0 -> true && 6 % 2 == 0 -> true && true -> true
+
+What will !false || false evaluate to?
+
+true <========
+
+false
+
+EXPLANATION
+!false || false -> true || false -> true
+
+What will true && false evaluate to?
+
+true
+
+false <========
+
+EXPLANATION
+&& only gives back true when both sides are true.
+
+
+Booleans Exercise
+# Example:
+puts false || false
+puts false && false
+puts !false
+puts !true
+
+
+# Write 4 more expressions below:
