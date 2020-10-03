@@ -86,4 +86,4 @@ puts words[2] # returns word at index 2
 
 # join
 
-puts words.join(" ")
+puts words.join(" ") # joins an array with what is specified in this case " " space

@@ -69,4 +69,32 @@ puts
 
 (0...4).each { puts "hello"}
 
-4.times { puts "hi" }
+4.times { puts "hi" } # cleaner method for running code x times
+
+# To Initials
+# Write a method to_initials that takes in a person's name
+# string and returns a string representing their initials.
+
+# def to_initials(name)
+# 	initials = []
+#   	str = ""
+#   	name.each_char do |initial|
+#       if initial == initial.upcase
+#         initials << initial
+#         str = initials.join("")
+#       end
+#
+#     end
+#   return str
+# end
+
+def to_initials(name)
+  parts = name.split(" ")
+  intials = ""
+  parts.each { |part| intials += part[0] }
+  return intials
+end
+
+print to_initials("Kelvin Bridges")      # => "KB"
+puts to_initials("Michaela Yamamoto")   # => "MY"
+puts to_initials("Mary La Grange")      # +> "MLG"
