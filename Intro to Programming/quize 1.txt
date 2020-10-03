@@ -1,0 +1,64 @@
+Numbers Quiz
+What will 27 % 6 evaluate to?
+
+0.5
+
+3. <=============
+
+4
+
+EXPLANATION
+Modulo (%) gives us the remainder of the division.
+27 divided by 6 is 4 w/ remainder 3. So the answer is 3.
+
+What will 5 + 5 / 2.0 evaluate to?
+
+7.5 <=============
+
+5
+
+EXPLANATION
+Arithmetic follows the order of operations.
+Division has a higher precedence than addition.
+5 + 5 / 2.0 -> 5 + 2.5 -> 7.5
+
+What will 10 / 3 evaluate to?
+
+9
+
+3.3333333
+
+3 <=============
+
+EXPLANATION
+Division with integers will ignore the decimal part of the result.
+ If we want to get a decimal one of the numbers must be a decimal.
+  For example, 10 / 3.0 will give 3.33333
+
+  Numbers Exercise 1
+Write 4 examples of expressions using each of the operations:
+ +, -, /, and %. Print out the result of your expressions using puts.
+  Be sure to test your work by running your code!
+
+  # Example:
+puts 4 + 2.5   # 6.5
+puts 4 - 2.5
+puts 4 * 2.5
+puts 4 / 2.5
+puts 4 % 2.5
+# Write 4 more expressions below:
+
+
+Numbers Exercise 2
+Write 6 comparison expressions using each of the operations:
+ ==, !=, <, >, <=, >=. Print out the result of your expressions
+ using puts. Be sure to test your work by running your code!
+
+ # Example:
+puts 4 == 4       # true
+puts 4 != 4
+puts 4 > 4
+puts 4 < 4
+puts 4 <= 4
+puts 4 >= 4
+# Write 6 more expressions below:
