@@ -1,0 +1,792 @@
+TASKS
+
+Introduction
+00:11:005/5
+
+LECTURES
+
+✔︎Welcome
+00:01:00
+
+✔︎Course Guidelines
+00:02:00
+
+✔︎Hello World
+00:02:00
+
+✔︎Comments
+00:03:00
+
+✔︎First Program
+00:03:00
+
+Numbers
+00:25:005/5
+
+LECTURES
+✔︎Numbers Lecture 1
+00:08:00
+
+✔︎Numbers Lecture 2
+00:04:00
+
+✔︎Numbers Quiz
+00:05:00
+
+EXERCISES
+✔︎Numbers Exercise 1
+00:04:00
+
+✔︎Numbers Exercise 2
+00:04:00
+
+Booleans
+00:14:003/3
+
+LECTURES
+
+✔︎Booleans Lecture
+00:05:00
+
+✔︎Booleans Quiz
+00:05:00
+
+EXERCISES
+✔︎Booleans Exercise
+00:04:00
+
+Strings
+00:21:005/5
+
+LECTURES
+
+✔︎Printing Data
+00:03:00
+
+✔︎Strings Lecture 1
+00:04:00
+
+✔︎Strings Lecture 2
+00:02:00
+
+✔︎Strings Quiz
+00:07:00
+
+EXERCISES
+
+✔︎Strings Exercise
+00:05:00
+
+Variables
+00:31:007/7
+
+LECTURES
+
+✔︎Variables Lecture 1
+00:05:00
+
+✔︎Variables Lecture 2
+00:04:00
+
+EXERCISES
+✔︎Variables Exercise 1
+00:05:00
+
+✔︎Variables Exercise 2
+00:05:00
+
+✔︎Variables Exercise 2 Walkthrough
+00:03:00
+
+✔︎Variables Exercise 3
+00:05:00
+
+✔︎Variables Exercise 3 Walkthrough
+00:04:00
+
+Methods
+00:36:0010/10
+
+LECTURES
+
+✔︎Methods Definition & Call Lecture
+00:04:00
+
+✔︎Method Parameters Lecture
+00:04:00
+
+✔︎Method Return Values Lecture
+00:06:00
+
+✔︎Methods Exercises Workflow
+00:02:00
+
+✔︎Practice Problem Tips
+00:01:00
+
+✔︎Methods Extras
+00:04:00
+
+EXERCISES
+
+✔︎Average Of Three
+00:04:00
+
+✔︎Average Of Three Walkthrough
+00:05:00
+
+✔︎Goodbye
+00:03:00
+
+✔︎Goodbye Walkthrough
+00:03:00
+
+Conditionals
+01:10:3015/15
+
+LECTURES
+
+✔︎Conditionals Lecture 1
+00:03:00
+
+✔︎Conditionals Lecture 2
+00:02:30
+
+✔︎Conditionals Lecture 3
+00:04:00
+
+EXERCISES
+
+✔︎Is Div By Five
+00:05:00
+
+✔︎Is Div By Five Walkthrough
+00:05:00
+
+✔︎Either Only
+00:12:00
+
+✔︎Either Only Walkthrough
+00:07:00
+
+✔︎Larger Number
+00:05:00
+
+✔︎Larger Number Walkthrough
+00:03:00
+
+✔︎Longer String
+00:05:00
+
+✔︎Longer String Walkthrough
+00:03:00
+
+✔︎Number Check
+00:05:00
+
+✔︎Number Check Walkthrough
+00:03:00
+
+✔︎Word Check
+00:05:00
+
+✔︎Word Check Walkthrough
+00:03:00
+
+Loops
+02:08:0023/23
+
+LECTURES
+
+✔︎Loops Lecture 1
+00:07:00
+
+✔︎Loops Lecture 2
+00:03:00
+
+✔︎Loops Lecture 3
+00:02:00
+
+✔︎Loops Lecture 4
+00:04:00
+
+✔︎Loops Lecture 5
+00:07:00
+
+✔︎Break & Next Lecture
+00:05:00
+
+EXERCISES
+
+✔︎Count E
+00:10:00
+
+✔︎Count E Whiteboard
+00:04:00
+
+✔︎Count E Walkthrough
+00:05:00
+
+✔︎Count A
+00:07:00
+
+✔︎Count A Walkthrough
+00:04:00
+
+✔︎Count Vowels
+00:08:00
+
+✔︎Count Vowels Walkthrough
+00:04:00
+
+✔︎Sum Nums
+00:08:00
+
+✔︎Sum Nums Whiteboard
+00:03:00
+
+✔︎Sum Nums Walkthrough
+00:05:00
+
+✔︎Factorial
+00:08:00
+
+✔︎Factorial Walkthrough
+00:04:00
+
+✔︎Reverse
+00:08:00
+
+✔︎Reverse Whiteboard
+00:03:00
+
+✔︎Reverse Walkthrough
+00:05:00
+
+✔︎Is Palindrome
+00:10:00
+
+✔︎Is Palindrome Walkthrough
+00:04:00
+
+Arrays
+03:12:0035/35
+
+LECTURES
+
+✔︎Arrays Lecture
+00:05:00
+
+✔︎Shovel Lecture
+00:03:00
+
+✔︎Iterating Arrays Lecture
+00:05:00
+
+EXERCISES
+
+✔︎Doubler
+00:08:00
+
+✔︎Doubler Whiteboard
+00:02:00
+
+✔︎Doubler Walkthrough
+00:05:00
+
+✔︎Yell
+00:08:00
+
+✔︎Yell Walkthrough
+00:03:00
+
+✔︎Element Times Index
+00:10:00
+
+✔︎Element Times Index Walkthrough
+00:04:00
+
+✔︎Even Nums
+00:08:00
+
+✔︎Even Nums Walkthrough
+00:04:00
+
+✔︎Range
+00:08:00
+
+✔︎Range Walkthrough
+00:04:00
+
+✔︎Odd Range
+00:08:00
+
+✔︎Odd Range Whiteboard
+00:03:00
+
+✔︎Odd Range Walkthrough
+00:03:00
+
+✔︎Reverse Range
+00:08:00
+
+✔︎Reverse Range Walkthrough
+00:03:00
+
+✔︎First Half
+00:10:00
+
+✔︎First Half Walkthrough
+00:06:00
+
+✔︎Factors Of
+00:09:00
+
+✔︎Factors Of Whiteboard
+00:04:00
+
+✔︎Factors Of Walkthrough
+00:03:00
+
+✔︎Select Odds
+00:08:00
+
+✔︎Select Odds Whiteboard
+00:03:00
+
+✔︎Select Odds Walkthrough
+00:03:00
+
+✔︎Select Long Words
+00:06:00
+
+✔︎Select Long Words Walkthrough
+00:03:00
+
+✔︎Sum Elements
+00:08:00
+
+✔︎Sum Elements Whiteboard
+00:02:00
+
+✔︎Sum Elements Walkthrough
+00:04:00
+
+✔︎Fizz Buzz
+00:10:00
+
+✔︎Fizz Buzz Whiteboard
+00:05:00
+
+✔︎Fizz Buzz Walkthrough
+00:06:00
+
+Enumerables & Ranges
+03:02:0026/26
+
+LECTURES
+
+✔︎Array Manipulation Methods Lecture
+00:08:00
+
+✔︎Index & Include Methods Lecture
+00:03:00
+
+✔︎Reverse Method Lecture
+00:05:00
+
+✔︎Range Slicing Lecture
+00:03:00
+
+✔︎Split & Join Lecture
+00:07:00
+
+✔︎Array Cheat Sheet
+00:03:00
+
+✔︎Enumerables Lecture 1
+00:07:00
+
+✔︎Enumerables Lecture 2
+00:08:00
+
+✔︎Enumerables Lecture 3
+00:03:00
+
+✔︎Enumerable Cheat Sheet
+00:05:00
+
+EXERCISES
+
+✔︎To Initials
+00:08:00
+
+✔︎To Initials Walkthrough
+00:03:00
+
+✔︎First In Array
+00:07:00
+
+✔︎First In Array Walkthrough
+00:03:00
+
+✔︎Abbreviate Sentence
+00:12:00
+
+✔︎Abbreviate Sentence Walkthrough
+00:10:00
+
+✔︎Format Name
+00:10:00
+
+✔︎Format Name Walkthrough
+00:06:00
+
+✔︎Is Valid Name
+00:15:00
+
+✔︎Is Valid Name Walkthrough
+00:10:00
+
+✔︎Is Valid Email
+00:15:00
+
+✔︎Is Valid Email Walkthrough
+00:07:00
+
+✔︎Reverse Words
+00:09:00
+
+✔︎Reverse Words Walkthrough
+00:03:00
+
+✔︎Rotate Array
+00:08:00
+
+✔︎Rotate Array Walkthrough
+00:04:00
+
+Nested Loops & 2D Arrays
+02:00:0017/17
+
+LECTURES
+✔︎Nested Loops Lecture 1
+00:06:00
+
+✔︎Nested Loops Lecture 2
+00:09:00
+
+✔︎Element Pairs Whiteboard
+00:02:00
+
+✔︎Unique Element Pairs Whiteboard
+00:02:00
+
+✔︎2 Dimensional Arrays Lecture
+00:07:00
+
+EXERCISES
+
+✔︎Combinations
+00:10:00
+
+✔︎Combinations Walkthrough
+00:05:00
+
+✔︎Opposite Count
+00:08:00
+
+✔︎Opposite Count Walkthrough
+00:05:00
+
+✔︎Two Dimensional Sum
+00:05:00
+
+✔︎Two Dimensional Sum Walkthrough
+00:03:00
+
+✔︎Two Dimensional Translate
+00:08:00
+
+✔︎Two Dimensional Translate Walkthrough
+00:04:00
+
+✔︎Array Translate
+00:10:00
+
+✔︎Array Translate Walkthrough
+00:05:00
+
+✔︎Pig Latin Word
+00:20:00
+
+✔︎Pig Latin Word Walkthrough
+00:11:00
+
+Hashes
+03:03:0034/34
+
+LECTURES
+
+✔︎Hashes Lecture 1
+00:06:00
+
+✔︎Hashes Lecture 2
+00:06:00
+
+✔︎Why Hashes Lecture
+00:03:00
+
+✔︎Iterating Hashes Lecture
+00:03:00
+
+✔︎Counter Hash Lecture 1
+00:08:00
+
+✔︎Counter Hash Lecture 2
+00:05:00
+
+✔︎Nil Lecture
+00:05:00
+
+✔︎Hash Cheat Sheet
+00:03:00
+
+EXERCISES
+✔︎Get Double Age
+00:05:00
+
+✔︎Get Double Age Walkthrough
+00:02:00
+
+✔︎Get Full Name
+00:04:00
+
+✔︎Get Full Name Walkthrough
+00:03:00
+
+✔︎Word Lengths
+00:07:00
+
+✔︎Word Lengths Walkthrough
+00:05:00
+
+✔︎Retrieve Values
+00:06:00
+
+✔︎Retrieve Values Walkthrough
+00:02:00
+
+✔︎Cat Builder
+00:06:00
+
+✔︎Cat Builder Walkthrough
+00:03:00
+
+✔︎Ae Count
+00:08:00
+
+✔︎Ae Count Walkthrough
+00:05:00
+
+✔︎Element Count
+00:10:00
+
+✔︎Element Count Walkthrough
+00:04:00
+
+✔︎Select Upcase Keys
+00:07:00
+
+✔︎Select Upcase Keys Walkthrough
+00:03:00
+
+✔︎Hand Score
+00:07:00
+
+✔︎Hand Score Walkthrough
+00:05:00
+
+✔︎Frequent Letters
+00:09:00
+
+✔︎Frequent Letters Walkthrough
+00:04:00
+
+✔︎Hash To Pairs
+00:06:00
+
+✔︎Hash To Pairs Walkthrough
+00:04:00
+
+✔︎Unique Elements
+00:09:00
+
+✔︎Unique Elements Walkthrough
+00:04:00
+
+✔︎Element Replace
+00:11:00
+
+✔︎Element Replace Walkthrough
+00:05:00
+
+Advanced Problems
+06:48:0051/51
+
+LECTURES
+
+✔︎Map & Select Lecture 1
+00:06:00
+
+✔︎Map & Select Lecture 2
+00:06:00
+
+EXERCISES
+
+✔︎Map By Name
+00:06:00
+
+✔︎Map By Name Walkthrough
+00:03:00
+
+✔︎Map By Key
+00:05:00
+
+✔︎Map By Key Walkthrough
+00:02:00
+
+✔︎Yell Sentence
+00:08:00
+
+✔︎Yell Sentence Walkthrough
+00:04:00
+
+✔︎Whisper Words
+00:06:00
+
+✔︎Whisper Words Walkthrough
+00:02:00
+
+✔︎O Words
+00:05:00
+
+✔︎O Words Walkthrough
+00:03:00
+
+✔︎Last Index
+00:07:00
+
+✔︎Last Index Walkthrough
+00:03:00
+
+✔︎Most Vowels
+00:15:00
+
+✔︎Most Vowels Walkthrough
+00:09:00
+
+✔︎Prime
+00:12:00
+
+✔︎Prime Walkthrough
+00:05:00
+
+✔︎Pick Primes
+00:08:00
+
+✔︎Pick Primes Walkthrough
+00:04:00
+
+✔︎Prime Factors
+00:10:00
+
+✔︎Prime Factors Walkthrough
+00:05:00
+
+✔︎Greatest Factor Array
+00:11:00
+
+✔︎Greatest Factor Array Walkthrough
+00:07:00
+
+✔︎Perfect Square
+00:12:00
+
+✔︎Perfect Square Walkthrough
+00:03:00
+
+✔︎Triple Sequence
+00:12:00
+
+✔︎Triple Sequence Walkthrough
+00:04:00
+
+✔︎Summation Sequence
+00:12:00
+
+✔︎Summation Sequence Walkthrough
+00:05:00
+
+✔︎Fibonacci
+00:09:00
+
+✔︎Fibonacci Walkthrough
+00:04:00
+
+✔︎Caesar Cipher
+00:10:00
+
+✔︎Caesar Cipher Walkthrough
+00:06:00
+
+✔︎Vowel Cipher
+00:16:00
+
+✔︎Vowel Cipher Walkthrough
+00:08:00
+
+✔︎Double Letter Count
+00:08:00
+
+✔︎Double Letter Count Walkthrough
+00:03:00
+
+✔︎Adjacent Sum
+00:11:00
+
+✔︎Adjacent Sum Walkthrough
+00:05:00
+
+✔︎Pyramid Sum
+00:20:00
+
+✔︎Pyramid Sum Whiteboard
+00:05:00
+
+✔︎Pyramid Sum Walkthrough
+00:12:00
+
+✔︎All Else Equal
+00:12:00
+
+✔︎All Else Equal Walkthrough
+00:06:00
+
+✔︎Anagrams
+00:11:00
+
+✔︎Anagrams Walkthrough
+00:05:00
+
+✔︎Consonant Cancel
+00:20:00
+
+✔︎Consonant Cancel Walkthrough
+00:07:00
+
+✔︎Same Char Collapse
+00:20:00
+
+✔︎Same Char Collapse Walkthrough
+00:10:00
