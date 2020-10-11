@@ -23,6 +23,8 @@ print arry
 arry[0] = "zero"
 print "\n"
 print arry
+<<<<<<< HEAD
+=======
 
 # Doubler
 # Write a method doubler(numbers) that takes an array of numbers and
@@ -290,3 +292,4 @@ end
 print fizz_buzz(20) # => [4, 6, 8, 16, 18]
 puts
 print fizz_buzz(15) # => [4, 6, 8]
+>>>>>>> f2d3e544e575456b0f18f169bd65d6ea81540323
