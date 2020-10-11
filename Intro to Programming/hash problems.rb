@@ -174,3 +174,99 @@ end
 
 puts hand_score("AQAJ") #=> 11
 puts hand_score("jJka") #=> 9
+
+#
+# Frequent Letters
+# Write a method frequent_letters that takes in a string and returns an
+#  array containing the characters that appeared more than twice in the string.
+#
+
+def frequent_letters(string)
+	arry = string.split("")
+  	final = []
+  	hash = Hash.new(0)
+  arry.each do |letter|
+    letter.each_char { |i| hash[i] += 1}
+  end
+  hash.each do |k, v|
+    if v > 2
+      final << k
+    end
+  end
+  return final
+end
+
+print frequent_letters('mississippi') #=> ["i", "s"]
+puts
+print frequent_letters('bootcamp') #=> []
+puts
+
+# Hash To Pairs
+# Write a method hash_to_pairs that takes in a hash and returns a 2D array
+#  representing each key-value pair of the hash.
+
+def hash_to_pairs(hash)
+ arry = []
+ hash.each do |k, v |
+   arry << [k, v]
+ end
+ return arry
+
+end
+
+
+print hash_to_pairs({"name"=>"skateboard", "wheels"=>4, "weight"=>"7.5 lbs"}) #=> [["name", "skateboard"], ["wheels", 4], ["weight", "7.5 lbs"]]
+puts
+
+
+print hash_to_pairs({"kingdom"=>"animalia", "genus"=>"canis", "breed"=>"German Shepherd"}) #=> [["kingdom", "animalia"], ["genus", "canis"], ["breed", "German Shepherd"]]
+puts
+
+# Unique Elements
+# Write a method unique_elements that takes in an array and returns a new
+# array where all duplicate elements are removed. Solve this using a hash.
+
+# Hint: all keys of a hash are automatically unique
+
+def unique_elements(arr)
+	hash = Hash.new(0)
+  	arry = []
+  arr.each { |elem| hash[elem] += 1 }
+  hash.each { |k, v| arry << k }
+
+  return arry
+end
+
+print unique_elements(['a', 'b', 'a', 'a', 'b', 'c']) #=> ["a", "b", "c"]
+puts
+
+# Element Replace
+# Write a method element_replace that takes in an array and a hash. The
+#  method should return a new array where elements of the original array
+#   are replaced with their corresponding values in the hash.
+
+def element_replace(arr, hash)
+	arry = []
+  arr.each do |elem|
+    hash.each do |k, v|
+      if k == elem
+        arry << v
+      end
+
+    end
+    if hash.has_key?(elem) == false
+      arry << elem
+    end
+  end
+    return arry
+end
+
+arr1 = ["LeBron James", "Lionel Messi", "Serena Williams"]
+hash1 = {"Serena Williams"=>"tennis", "LeBron James"=>"basketball"}
+print element_replace(arr1, hash1) # => ["basketball", "Lionel Messi", "tennis"]
+puts
+
+arr2 = ["dog", "cat", "mouse"]
+hash2 = {"dog"=>"bork", "cat"=>"meow", "duck"=>"quack"}
+print element_replace(arr2, hash2) # => ["bork", "meow", "mouse"]
+puts

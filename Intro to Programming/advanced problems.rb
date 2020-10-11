@@ -459,4 +459,215 @@ puts caesar_cipher("apple", 1)    #=> "bqqmf"
 puts caesar_cipher("bootcamp", 2) #=> "dqqvecor"
 puts caesar_cipher("zebra", 4)    #=> "difve"
 
-puts 27 % 26
+# Vowel Cipher
+# Write a method vowel_cipher that takes in a string and returns a new
+# string where every vowel becomes the next vowel in the alphabet.
+
+def vowel_cipher(string)
+  vowels = "aeiou"
+
+  new_chars = string.split("").map do |char|
+    if vowels.include?(char)
+      old_idx = vowels.index(char)
+      new_idx = old_idx + 1
+      vowels[new_idx % vowels.length]
+    else
+      char
+    end
+  end
+
+  return new_chars.join("")
+end
+
+puts vowel_cipher("bootcamp") #=> buutcemp
+puts vowel_cipher("paper cup") #=> pepir cap
+
+# Double Letter Count
+# Write a method that takes in a string and returns the number
+#  of times that the same letter repeats twice in a row.
+
+
+def double_letter_count(string)
+	count = 0
+  	val = 0
+  	while count < string.length
+      if string[count] == string[count + 1]
+        val +=1
+      end
+      count +=1
+    end
+	return val
+  end
+puts double_letter_count("the jeep rolled down the hill") #=> 3
+puts double_letter_count("bootcamp") #=> 1
+
+
+# Adjacent Sum
+# Write a method adjacent_sum that takes in an array of numbers and
+# returns a new array containing the sums of adjacent numbers in the
+#  original array. See the examples.
+
+def adjacent_sum(arr)
+  new_arry = []
+  arr.each_with_index do |num, i|
+    if num == arr[-1]
+      return new_arry
+      else
+      new_arry << num + arr[i+1]
+    end
+  end
+	return new_arry
+end
+
+print adjacent_sum([3, 7, 2, 11]) #=> [10, 9, 13], because [ 3+7, 7+2, 2+11 ]
+puts
+print adjacent_sum([2, 5, 1, 9, 2, 4]) #=> [7, 6, 10, 11, 6], because [2+5, 5+1, 1+9, 9+2, 2+4]
+puts
+
+# Pyramid Sum
+# Write a method pyramid_sum that takes in an array of numbers representing
+# the base of a pyramid. The function should return a 2D array representing
+#  a complete pyramid with the given base. To construct a level of the
+#   pyramid, we take the sum of adjacent elements of the level below.
+
+def pyramid_sum(base)
+  pyramid = [base]
+
+  while pyramid.length < base.length
+    prev_level = pyramid[0]
+    next_level = adjacent_sum(prev_level)
+    pyramid.unshift(next_level)
+  end
+
+  return pyramid
+end
+
+def adjacent_sum(arr)
+  new_arr = []
+
+  arr.each_with_index do |ele, i|
+    if i != arr.length - 1
+      new_arr << arr[i] + arr[i + 1]
+    end
+  end
+
+  return new_arr
+end
+
+print pyramid_sum([1, 4, 6]) #=> [[15], [5, 10], [1, 4, 6]]
+puts
+
+print pyramid_sum([3, 7, 2, 11]) #=> [[41], [19, 22], [10, 9, 13], [3, 7, 2, 11]]
+puts
+
+# All Else Equal
+# Write a method all_else_equal that takes in an array of numbers.
+#  The method should return the element of the array that is equal
+#  to half of the sum of all elements of the array. If there is no
+#  such element, the method should return nil.
+
+ def all_else_equal(arr)
+   	tot = 0
+ 	arr.each do |num|
+       tot +=num
+     end
+   	mid = tot / 2
+   	arr.each do |num|
+       if mid == num
+         return num
+       end
+     end
+   return nil
+ end
+
+ p all_else_equal([2, 4, 3, 10, 1]) #=> 10, because the sum of all elements is 20
+ p all_else_equal([6, 3, 5, -9, 1]) #=> 3, because the sum of all elements is 6
+ p all_else_equal([1, 2, 3, 4])     #=> nil, because the sum of all elements is 10 and there is no 5 in the array
+
+
+#  Anagrams
+# Write a method anagrams? that takes in two words and returns a boolean
+# indicating whether or not the words are anagrams. Anagrams are words
+# that contain the same characters but not necessarily in the same order.
+#  Solve this without using .sort
+
+def anagrams?(word1, word2)
+	arr1 = word1.split("")
+  	arr2 = word2.split("")
+
+    count = Hash.new(0)
+  	count2 = Hash.new(0)
+
+  	arr1.each {|word| count[word] += 1}
+ 	arr2.each {|word| count2[word] += 1}
+
+  if count == count2
+    return true
+  else
+    return false
+  end
+end
+
+puts anagrams?("cat", "act")          #=> true
+puts anagrams?("restful", "fluster")  #=> true
+puts anagrams?("cat", "dog")          #=> false
+puts anagrams?("boot", "bootcamp")    #=> false
+
+# Consonant Cancel
+# Write a method consonant_cancel that takes in a sentence and returns
+#  a new sentence where every word begins with it's first vowel.
+
+def consonant_cancel(sentence)
+	arry = sentence.split(" ")
+  	final = []
+  	vowel = "aeiou"
+  	arry.each do |word|
+      len = word.length
+      word.each_char.with_index do |char, i|
+        if vowel.include?(char)
+          final << word[i..-1]
+          break
+        end
+      end
+    end
+  return final.join(" ")
+end
+
+puts consonant_cancel("down the rabbit hole") #=> "own e abbit ole"
+puts consonant_cancel("writing code is challenging") #=> "iting ode is allenging"
+
+# Same Char Collapse
+# Write a method same_char_collapse that takes in a string and returns a
+#  collapsed version of the string. To collapse the string, we repeatedly
+#   delete 2 adjacent characters that are the same until there are no such
+#    adjacent characters. If there are multiple pairs that can be collapsed,
+#     delete the leftmost pair. For example, we take the following steps to
+#     collapse "zzzxaaxy": zzzxaaxy -> zxaaxy -> zxxy -> zy
+
+def same_char_collapse(str)
+  reducible = true
+
+  while reducible
+    chars = str.split("")
+    reducible = false
+
+    chars.each.with_index do |char, i|
+      if chars[i] == chars[i + 1]
+        chars[i] = ""
+        chars[i + 1] = ""
+        reducible = true
+      end
+    end
+
+    str = chars.join("")
+  end
+
+  return str
+end
+
+puts same_char_collapse("zzzxaaxy")   #=> "zy"
+# because zzzxaaxy -> zxaaxy -> zxxy -> zy
+
+
+puts same_char_collapse("uqrssrqvtt") #=> "uv"
+# because uqrssrqvtt -> uqrrqvtt -> uqqvtt -> uvtt -> uv
