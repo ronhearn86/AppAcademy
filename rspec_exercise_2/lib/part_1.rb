@@ -29,29 +29,57 @@ def merge(hash_1, hash_2)
 end
 
 def censor(sent, arr)
-  v = "aeiou"
-  str = ""
-  sent = sent.downcase
-  sent.split.each do |word|
-    arr.each do | curse|
-      if curse == word
-        word.each_char.with_index do |s, i|
-          if v.include?(s)
-            word[i] = "*"
-
-          else
-            str += s
-          end
-          str += s
-        end
-
+  sent2 = sent.downcase
+  final = []
+  change = false
+    sent2.split.each do |gword|
+      arr.each do |word|
+      if word == gword
+        change = true
       end
     end
+    if change == false
+      final << gword
+    elsif change == true
+      x = curse(gword)
+      final << x
+      change = false
+    end
+
   end
-  return str
+  final[0]= final[0].capitalize
+  z = final.join(" ")
+  if z[1] == sent[1] || z[-1] == sent[-1]
+    return z
+  else
+    return z.upcase
+  end
 end
 
+def curse(str)
+  v = "aeiou"
+  new_str = ""
+  str.each_char do |i|
+    if v.include?(i)
+      new_str += "*"
+    else
+      new_str += i
+    end
+  end
+    return new_str
+end
 
-def power_of_two(num)
-
+def power_of_two?(num)
+  if num < 1
+    return false
+  end
+  while true
+      if num == 1
+        return true
+    elsif num % 2 == 0
+      num = num /2
+    else
+      return false
+    end
+  end
 end
